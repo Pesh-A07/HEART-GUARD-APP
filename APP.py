@@ -22,7 +22,7 @@ def load_data():
     return df
 
 df = load_data()
-st.title("🫀 Heart Guard AI - CAD Prediction")
+st.title("Heart Guard AI - CAD Prediction")
 st.write("This app builds machine learning models to predict **Coronary Artery Disease (CAD)**")
 
 st.subheader("Dataset Preview")
